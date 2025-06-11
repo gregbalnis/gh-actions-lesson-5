@@ -26,7 +26,7 @@ jobs:
         if: ${{ contains(env.aString, 'this') }}
         run: |
           echo "our string var contaions the word this"
-          echos "but there's a typo"
+          echos "but theres a typo"
       - name: test status check and format function
         if: ${{ failure() }}
         env:
